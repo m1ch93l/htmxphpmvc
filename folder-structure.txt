@@ -1,0 +1,24 @@
+my-app/
+│
+├── public/
+│   └── index.php
+│
+├── controllers/
+│   ├── HomeController.php
+│   └── AboutController.php
+│
+├── models/
+│   └── PageModel.php
+│
+├── views/
+│   ├── layout.php
+│   ├── home.php
+│   ├── about.php
+│   └── partials/
+│       ├── navbar.php
+│       └── footer.php
+│
+├── config/
+│   └── Database.php
+│
+└── README.md
