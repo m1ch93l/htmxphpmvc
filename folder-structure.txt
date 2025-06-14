@@ -22,3 +22,6 @@ my-app/
 │   └── Database.php
 │
 └── README.md
+
+#Run on Localhost (on Terminal type)
+php -S localhost:8000 -t public
