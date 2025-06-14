@@ -2,9 +2,9 @@
 class Database
 {
     private static $host = 'localhost';
-    private static $db = 'htmxphpmvc';
-    private static $user = 'root';
-    private static $pass = 'Matalinoko56';
+    private static $db = 'htmxphpmvc'; //database name
+    private static $user = 'root'; //database username
+    private static $pass = ''; //database password
     private static $charset = 'utf8mb4';
 
     public static function connect()
