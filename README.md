@@ -2,4 +2,4 @@
 
 ## License
 
-The YOUTH platform software is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The htmxphpmvc software is licensed under the [MIT license](https://opensource.org/licenses/MIT).
