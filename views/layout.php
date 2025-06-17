@@ -5,14 +5,11 @@
     <meta charset="UTF-8">
     <title><?= $pageTitle ?? 'My Site' ?></title>
     <!-- tab icon -->
-    <link rel="shortcut icon" href="">
-    <!-- bootstrap ui -->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <!-- htmx -->
-    <script src="node_modules/htmx.org/dist/htmx.min.js" crossorigin="anonymous"></script>
-    <!-- bootstrap icons -->
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/htmxphpmvc/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/htmxphpmvc/libs/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="/htmxphpmvc/libs/htmx/htmx.min.js"></script>
+    <script src="/htmxphpmvc/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
