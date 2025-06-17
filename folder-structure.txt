@@ -1,29 +1,25 @@
-my-app/
-│
-├── public/
-│   └── index.php
-|   └── .htaccess
-│
+htmxphpmvc
+├── config/
+│   ├── database.example.php
+│   └── database.php
 ├── controllers/
-│   ├── HomeController.php
-│   └── AboutController.php
-│
+│   ├── AboutController.php
+│   └── HomeController.php
 ├── models/
 │   └── PageModel.php
-│
+├── public/
+│   ├── .htaccess
+│   └── index.php
 ├── views/
-│   ├── layout.php
-│   ├── home.php
+│   ├── partials/
+│   │   ├── footer.php
+│   │   └── navbar.php
 │   ├── about.php
-│   └── partials/
-│       ├── navbar.php
-│       └── footer.php
-│
-├── config/
-│   └── Database.php
-│
+│   ├── home.php
+│   └── layout.php
+├── .htaccess
+├── folder-structure.txt
 └── README.md
-└── .htaccess
 
 #Run on Localhost (on Terminal type)
 php -S localhost:8000 -t public
