@@ -2,6 +2,7 @@ my-app/
 │
 ├── public/
 │   └── index.php
+|   └── .htaccess
 │
 ├── controllers/
 │   ├── HomeController.php
@@ -22,6 +23,7 @@ my-app/
 │   └── Database.php
 │
 └── README.md
+└── .htaccess
 
 #Run on Localhost (on Terminal type)
 php -S localhost:8000 -t public
